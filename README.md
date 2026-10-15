@@ -1,7 +1,9 @@
-# raylib-bouncing-ball
 # Raylib Bouncing Ball Simulation
 
 A smooth 2D bouncing ball physics simulation with dynamic motion trails, glow shaders, and speed controls built in C using **raylib**.
+
+##Demo
+https://github.com/user-attachments/assets/1078c52c-99ee-4790-9ef3-b769e1dfc09f
 
 ## Controls
 - **SPACE**: Pause / Resume
