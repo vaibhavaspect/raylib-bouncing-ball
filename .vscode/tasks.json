@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Build and Run Raylib",
+      "command": "gcc '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}.exe' -lraylib -lopengl32 -lgdi32 -lwinmm; .\\'${fileBasenameNoExtension}.exe'",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
